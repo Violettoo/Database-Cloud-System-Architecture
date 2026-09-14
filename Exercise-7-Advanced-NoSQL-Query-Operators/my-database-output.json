@@ -1,0 +1,95 @@
+6/28/2026, 10:06:06 PMnode: debug 5
+msg.payload : Object
+{ device id: "GATEWAY 01", battery: 85, status: "active", sensors attached: array[3], active warnings: array[2] … }
+6/28/2026, 10:06:06 PMnode: debug 5
+msg.payload : Object
+{ acknowledged: true, insertedId: "6a412a4e2a1490814f3a25cd" }
+6/28/2026, 10:06:09 PMnode: debug 1
+msg.payload : array[2]
+array[2]
+0: object
+_id: "6a41270e2a1490814f3a25cc"
+device id: "GATEWAY 01"
+battery: 82
+status: "active"
+sensors attached: array[4]
+0: "temperature"
+1: "humidity"
+2: "soil moisture"
+3: "light_level"
+active warnings: array[2]
+0: object
+1: object
+transmission count: 101
+1: object
+_id: "6a412a4e2a1490814f3a25cd"
+device id: "GATEWAY 01"
+battery: 85
+status: "active"
+sensors attached: array[3]
+0: "temperature"
+1: "humidity"
+2: "soil moisture"
+active warnings: array[2]
+0: object
+1: object
+transmission count: 100
+6/28/2026, 10:06:10 PMnode: debug 2
+msg.payload : array[2]
+array[2]
+0: object
+_id: "6a41270e2a1490814f3a25cc"
+device id: "GATEWAY 01"
+battery: 82
+status: "active"
+sensors attached: array[4]
+active warnings: array[2]
+transmission count: 101
+1: object
+_id: "6a412a4e2a1490814f3a25cd"
+device id: "GATEWAY 01"
+battery: 85
+status: "active"
+sensors attached: array[3]
+0: "temperature"
+1: "humidity"
+2: "soil moisture"
+active warnings: array[2]
+0: object
+1: object
+transmission count: 100
+6/28/2026, 10:06:11 PMnode: debug 3
+msg.payload : Object
+object
+acknowledged: true
+modifiedCount: 1
+upsertedId: null
+upsertedCount: 0
+matchedCount: 1
+6/28/2026, 10:06:13 PMnode: debug 4
+msg.payload : Object
+object
+acknowledged: true
+modifiedCount: 1
+upsertedId: null
+upsertedCount: 0
+matchedCount: 1
+6/28/2026, 10:11:02 PMnode: debug 6
+msg.payload : array[2]
+array[2]
+0: object
+_id: "6a41270e2a1490814f3a25cc"
+device id: "GATEWAY 01"
+battery: 82
+status: "active"
+sensors attached: array[5]
+active warnings: array[2]
+transmission count: 102
+1: object
+_id: "6a412a4e2a1490814f3a25cd"
+device id: "GATEWAY 01"
+battery: 85
+status: "active"
+sensors attached: array[3]
+active warnings: array[2]
+transmission count: 100

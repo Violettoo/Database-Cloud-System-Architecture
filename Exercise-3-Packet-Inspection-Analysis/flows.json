@@ -1,0 +1,57 @@
+[
+    {
+        "id": "3231439e6af190b4",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "42ef26c2154f1136",
+        "type": "http in",
+        "z": "3231439e6af190b4",
+        "name": "",
+        "url": "/api/secure-data",
+        "method": "post",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 560,
+        "y": 260,
+        "wires": [
+            [
+                "e30b62afba6800f9",
+                "5e716a1493ed251b"
+            ]
+        ]
+    },
+    {
+        "id": "e30b62afba6800f9",
+        "type": "debug",
+        "z": "3231439e6af190b4",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "5e716a1493ed251b",
+        "type": "http response",
+        "z": "3231439e6af190b4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 810,
+        "y": 260,
+        "wires": []
+    }
+]
